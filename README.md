@@ -1,6 +1,10 @@
 # visdial-tensorflow
 This code provides a TensorFlow implementation for [Visual Dialog](https://arxiv.org/pdf/1611.08669.pdf).
 
+The code includes two evaluation protocols:
+1. round level: history ground-truth answers are provided for the current question.
+2. dialog level: history ground-truth answers are not available.
+
 ## Setup
 TensorFlow >= 1.4. Installation instruction are as follows:
 ```
@@ -22,3 +26,5 @@ Use the codes under [data/](https://github.com/hehefan/visdial-tensorflow/tree/m
 2. resnet152_img.py: extract ResNet-152 feature. [ResNet-152 checkpoint](http://download.tensorflow.org/models/resnet_v1_152_2016_08_28.tar.gz) should be downloaded at first.	
 3. vgg16_img.py: extract VGG-16 feature. [VGG-16 checkpoint](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) should be ownloaded at first.
 
+## License
+MIT: http://rem.mit-license.org
