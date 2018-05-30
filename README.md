@@ -28,7 +28,11 @@ Use the codes under [data/](https://github.com/hehefan/visdial-tensorflow/tree/m
 3. vgg16_img.py: extract VGG-16 feature. [VGG-16 checkpoint](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) should be ownloaded at first.
 
 # Late Fusion
+![](https://github.com/hehefan/visdial-tensorflow/blob/master/images/lf.png)
+The [LF-G-round-level](https://github.com/hehefan/visdial-tensorflow/tree/master/LF-G-round-level) model can reproduce the numbers in the Visual Dialog paper.
 
 # Recurrrent Attention Network
+![](https://github.com/hehefan/visdial-tensorflow/blob/master/images/recurrent_attention_network.png)
+
 ## License
 MIT: http://rem.mit-license.org
