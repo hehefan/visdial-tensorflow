@@ -27,5 +27,8 @@ Use the codes under [data/](https://github.com/hehefan/visdial-tensorflow/tree/m
 2. resnet152_img.py: extract ResNet-152 feature. [ResNet-152 checkpoint](http://download.tensorflow.org/models/resnet_v1_152_2016_08_28.tar.gz) should be downloaded at first.	
 3. vgg16_img.py: extract VGG-16 feature. [VGG-16 checkpoint](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) should be ownloaded at first.
 
+# Late Fusion
+
+# Recurrrent Attention Network
 ## License
 MIT: http://rem.mit-license.org
