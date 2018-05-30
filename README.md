@@ -2,6 +2,7 @@
 This code provides a TensorFlow implementation for [Visual Dialog](https://arxiv.org/pdf/1611.08669.pdf).
 
 The code includes two evaluation protocols:
+
 1. round level: history ground-truth answers are provided for the current question.
 2. dialog level: history ground-truth answers are not available.
 
